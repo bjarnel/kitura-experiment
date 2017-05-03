@@ -38,6 +38,12 @@
       "version": "1.7.0"
     },
     {
+      "package": "MySQL",
+      "reason": null,
+      "repositoryURL": "https://github.com/PerfectlySoft/Perfect-MySQL.git",
+      "version": "2.1.2"
+    },
+    {
       "package": "SSLService",
       "reason": null,
       "repositoryURL": "https://github.com/IBM-Swift/BlueSSLService.git",
@@ -54,6 +60,12 @@
       "reason": null,
       "repositoryURL": "https://github.com/IBM-Swift/SwiftyJSON.git",
       "version": "16.0.0"
+    },
+    {
+      "package": "mysqlclient",
+      "reason": null,
+      "repositoryURL": "https://github.com/PerfectlySoft/Perfect-mysqlclient.git",
+      "version": "2.0.0"
     }
   ],
   "version": 1

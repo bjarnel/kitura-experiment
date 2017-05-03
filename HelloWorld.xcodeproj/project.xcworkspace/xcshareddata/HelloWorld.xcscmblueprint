@@ -9,6 +9,7 @@
     "A37202FAF69B0E55E88C8FE855678FFE8373B5D8" : 9223372036854775807,
     "1A81AC7E588BE86E760603555BCE76FB0C611997" : 9223372036854775807,
     "43425688648679ECEC3105C3812E3C82D04FD563" : 9223372036854775807,
+    "B123C9ACF68A2BF01173B652DA8ABD73F990D1DE" : 9223372036854775807,
     "77528AA6C8B451D66547916CA3CB970C85CBD7B4" : 9223372036854775807,
     "85E996FB125657C20E42A299A76F925867A7A6E4" : 9223372036854775807,
     "43C021D2F0E746BBB29CA4E06229F111196D4871" : 9223372036854775807,
@@ -21,6 +22,7 @@
     "A37202FAF69B0E55E88C8FE855678FFE8373B5D8" : "helloworld\/",
     "1A81AC7E588BE86E760603555BCE76FB0C611997" : "helloworld\/.build\/checkouts\/Kitura-TemplateEngine.git--5059963620657797085\/",
     "43425688648679ECEC3105C3812E3C82D04FD563" : "helloworld\/.build\/checkouts\/Kitura.git-6522211175291160341\/",
+    "B123C9ACF68A2BF01173B652DA8ABD73F990D1DE" : "helloworld\/.build\/checkouts\/Perfect-MySQL.git-4976130768219902098\/",
     "77528AA6C8B451D66547916CA3CB970C85CBD7B4" : "helloworld\/.build\/checkouts\/BlueSSLService.git--6577639804771281610\/",
     "85E996FB125657C20E42A299A76F925867A7A6E4" : "helloworld\/.build\/checkouts\/LoggerAPI.git--6449715459278086880\/",
     "43C021D2F0E746BBB29CA4E06229F111196D4871" : "helloworld\/.build\/checkouts\/BlueSocket.git-3162807777605905816\/",
@@ -69,6 +71,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:bjarnel\/kitura-experiment.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A37202FAF69B0E55E88C8FE855678FFE8373B5D8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/bjlu\/Projects\/kitura\/helloworld\/.build\/repositories\/Perfect-MySQL.git-4976130768219902098",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B123C9ACF68A2BF01173B652DA8ABD73F990D1DE"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/bjlu\/Projects\/kitura\/helloworld\/.build\/repositories\/SwiftyJSON.git--6955445084174387031",

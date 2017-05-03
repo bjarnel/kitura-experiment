@@ -4,7 +4,7 @@ import HeliumLogger
 HeliumLogger.use()
 
 let router = Router()
-let itemStorage:ItemStorage = ItemMemStorage()
+let itemStorage:ItemStorage = ItemMySQLStorage()
 
 router.all(middleware: BodyParser())
 
