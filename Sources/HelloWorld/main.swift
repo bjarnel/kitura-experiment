@@ -45,9 +45,9 @@ router.post("/items") { request, response, next in
         response.status(.internalServerError)
         return
     }
-    
+
     response.status(.OK)
-    response.send(json: ["id": newItem.id, "title": newItem.title])
+    response.send(json: newItem.dictionary)
     
     next()
 }
@@ -65,7 +65,7 @@ router.get("/items/") { request, response, next in
     }
     
     response.status(.OK)
-    response.send(json: ["id": item.id, "title": item.title])
+    response.send(json: item.dictionary)
     
     next()
 }
@@ -89,7 +89,7 @@ router.post("/items/") { request, response, next in
     }
     
     response.status(.OK)
-    response.send(json: ["id": updatedItem.id, "title": updatedItem.title])
+    response.send(json: updatedItem.dictionary)
     
     next()
 }

@@ -1,0 +1,79 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A37202FAF69B0E55E88C8FE855678FFE8373B5D8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "92AF87893551AD3F2DEE78BEF3E924B9C5659E09" : 9223372036854775807,
+    "40635794C1929E96A4709153927459486D34FA7B" : 9223372036854775807,
+    "A37202FAF69B0E55E88C8FE855678FFE8373B5D8" : 9223372036854775807,
+    "1A81AC7E588BE86E760603555BCE76FB0C611997" : 9223372036854775807,
+    "43425688648679ECEC3105C3812E3C82D04FD563" : 9223372036854775807,
+    "77528AA6C8B451D66547916CA3CB970C85CBD7B4" : 9223372036854775807,
+    "85E996FB125657C20E42A299A76F925867A7A6E4" : 9223372036854775807,
+    "43C021D2F0E746BBB29CA4E06229F111196D4871" : 9223372036854775807,
+    "C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2D7EEACE-B134-4F59-B5C9-F809144A44BA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "92AF87893551AD3F2DEE78BEF3E924B9C5659E09" : "helloworld\/.build\/checkouts\/HeliumLogger.git-2106793442615829935\/",
+    "40635794C1929E96A4709153927459486D34FA7B" : "helloworld\/.build\/checkouts\/Kitura-net.git--7410958935072501107\/",
+    "A37202FAF69B0E55E88C8FE855678FFE8373B5D8" : "helloworld\/",
+    "1A81AC7E588BE86E760603555BCE76FB0C611997" : "helloworld\/.build\/checkouts\/Kitura-TemplateEngine.git--5059963620657797085\/",
+    "43425688648679ECEC3105C3812E3C82D04FD563" : "helloworld\/.build\/checkouts\/Kitura.git-6522211175291160341\/",
+    "77528AA6C8B451D66547916CA3CB970C85CBD7B4" : "helloworld\/.build\/checkouts\/BlueSSLService.git--6577639804771281610\/",
+    "85E996FB125657C20E42A299A76F925867A7A6E4" : "helloworld\/.build\/checkouts\/LoggerAPI.git--6449715459278086880\/",
+    "43C021D2F0E746BBB29CA4E06229F111196D4871" : "helloworld\/.build\/checkouts\/BlueSocket.git-3162807777605905816\/",
+    "C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3" : "helloworld\/.build\/checkouts\/SwiftyJSON.git--6955445084174387031\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HelloWorld",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HelloWorld.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/bjlu\/Projects\/kitura\/helloworld\/.build\/repositories\/Kitura-TemplateEngine.git--5059963620657797085",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1A81AC7E588BE86E760603555BCE76FB0C611997"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/bjlu\/Projects\/kitura\/helloworld\/.build\/repositories\/Kitura-net.git--7410958935072501107",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "40635794C1929E96A4709153927459486D34FA7B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/bjlu\/Projects\/kitura\/helloworld\/.build\/repositories\/Kitura.git-6522211175291160341",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "43425688648679ECEC3105C3812E3C82D04FD563"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/bjlu\/Projects\/kitura\/helloworld\/.build\/repositories\/BlueSocket.git-3162807777605905816",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "43C021D2F0E746BBB29CA4E06229F111196D4871"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/bjlu\/Projects\/kitura\/helloworld\/.build\/repositories\/BlueSSLService.git--6577639804771281610",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "77528AA6C8B451D66547916CA3CB970C85CBD7B4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/bjlu\/Projects\/kitura\/helloworld\/.build\/repositories\/LoggerAPI.git--6449715459278086880",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "85E996FB125657C20E42A299A76F925867A7A6E4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/bjlu\/Projects\/kitura\/helloworld\/.build\/repositories\/HeliumLogger.git-2106793442615829935",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "92AF87893551AD3F2DEE78BEF3E924B9C5659E09"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:bjarnel\/kitura-experiment.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A37202FAF69B0E55E88C8FE855678FFE8373B5D8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/bjlu\/Projects\/kitura\/helloworld\/.build\/repositories\/SwiftyJSON.git--6955445084174387031",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3"
+    }
+  ]
+}
