@@ -1,2 +1,7 @@
+Sources/HelloWorld/MysqlConf.swift
+
 *.DS_Store
+
 .build/
+
+

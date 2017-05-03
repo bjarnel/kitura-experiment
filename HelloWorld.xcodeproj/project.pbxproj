@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0689DC131EBA0466005C9343 /* ItemMySQLStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0689DC111EBA0436005C9343 /* ItemMySQLStorage.swift */; };
+		06F68B361EBA10A0000F13CD /* MysqlConf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F68B341EBA104E000F13CD /* MysqlConf.swift */; };
 		OBJ_152 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_134 /* Logger.swift */; };
 		OBJ_159 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_129 /* Socket.swift */; };
 		OBJ_160 /* SocketProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_130 /* SocketProtocols.swift */; };
@@ -318,6 +319,7 @@
 
 /* Begin PBXFileReference section */
 		0689DC111EBA0436005C9343 /* ItemMySQLStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemMySQLStorage.swift; sourceTree = "<group>"; };
+		06F68B341EBA104E000F13CD /* MysqlConf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MysqlConf.swift; sourceTree = "<group>"; };
 		OBJ_10 /* ItemMemStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemMemStorage.swift; sourceTree = "<group>"; };
 		OBJ_100 /* FastCGIServerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastCGIServerResponse.swift; sourceTree = "<group>"; };
 		OBJ_102 /* HTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
@@ -769,7 +771,7 @@
 			path = ".build/checkouts/Kitura.git-6522211175291160341/Sources/Kitura";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -778,7 +780,6 @@
 				OBJ_15 /* Dependencies */,
 				OBJ_135 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_52 /* bodyParser */ = {
@@ -898,6 +899,7 @@
 				0689DC111EBA0436005C9343 /* ItemMySQLStorage.swift */,
 				OBJ_11 /* ItemStorage.swift */,
 				OBJ_13 /* SQLDb.swift */,
+				06F68B341EBA104E000F13CD /* MysqlConf.swift */,
 			);
 			name = HelloWorld;
 			path = Sources/HelloWorld;
@@ -1137,7 +1139,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_135 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1338,6 +1340,7 @@
 				OBJ_336 /* ItemMemStorage.swift in Sources */,
 				OBJ_337 /* ItemStorage.swift in Sources */,
 				OBJ_338 /* main.swift in Sources */,
+				06F68B361EBA10A0000F13CD /* MysqlConf.swift in Sources */,
 				OBJ_339 /* SQLDb.swift in Sources */,
 				0689DC131EBA0466005C9343 /* ItemMySQLStorage.swift in Sources */,
 			);

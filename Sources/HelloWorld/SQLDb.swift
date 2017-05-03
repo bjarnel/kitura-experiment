@@ -9,8 +9,6 @@
 import Foundation
 import MySQL
 
-private let host = "127.0.0.1"
-
 class SQLDb {
     private let dataMysql = MySQL()
     
@@ -21,16 +19,16 @@ class SQLDb {
         guard !isConnected else { return true }
         
         // connect to database
-        guard dataMysql.connect(host: host,
-                                user: user,
-                                password: password) else {
+        guard dataMysql.connect(host: MysqlConf.host,
+                                user: MysqlConf.user,
+                                password: MysqlConf.password) else {
             print("unable to connect to database")
             return false
         }
         
         isConnected = true
         
-        guard dataMysql.selectDatabase(named: database) else {
+        guard dataMysql.selectDatabase(named: MysqlConf.database) else {
             close()
             print("unable to select database")
             return false
