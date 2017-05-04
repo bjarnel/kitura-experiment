@@ -36,6 +36,7 @@ router.get("/items") { request, response, next in
 
 // create new item
 router.post("/items") { request, response, next in
+    
     guard let title = request.body?.asJSON?["title"].string else {
             response.status(.badRequest)
             return
@@ -54,6 +55,7 @@ router.post("/items") { request, response, next in
 
 // http://localhost:8080/items/?id=36bc9921-c6ae-4ef4-bd61-a5864f3f7718
 router.get("/items/") { request, response, next in
+    
     guard let id = request.queryParameters["id"] else {
             response.status(.badRequest)
             return
@@ -72,6 +74,7 @@ router.get("/items/") { request, response, next in
 
 // (updated title of item) http://localhost:8080/items/?id=36bc9921-c6ae-4ef4-bd61-a5864f3f7718
 router.post("/items/") { request, response, next in
+    
     guard let id = request.queryParameters["id"],
           let title = request.body?.asJSON?["title"].string else {
             response.status(.badRequest)
@@ -96,6 +99,7 @@ router.post("/items/") { request, response, next in
 
 //delete item
 router.delete("/items/") { request, response, next in
+    
     guard let id = request.queryParameters["id"] else {
             response.status(.badRequest)
             return

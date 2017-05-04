@@ -10,6 +10,7 @@ import Foundation
 import MySQL
 
 class ItemMySQLStorage:ItemStorage {
+    
     func getAllItems() -> [Item]? {
         guard let mysql = SQLDb.shared.mysql else { return nil }
         defer { SQLDb.shared.close() }
@@ -28,10 +29,20 @@ class ItemMySQLStorage:ItemStorage {
         var items:[Item] = []
         _ = pre.results().forEachRow { (element:MySQLStmt.Results.Element) in
             
-            
-            if let id = element[0] as? NSNumber,
+            /*
+            if let _ = element[0] as? NSNumber { print("NSNumber") }
+			if let _ = element[0] as? Int { print("Int") }
+			if let _ = element[0] as? UInt32 { print("UInt32") }
+			if let _ = element[0] as? Double { print("Double") }
+			if let _ = element[0] as? String { print("String") }
+			if let _ = element[0] as? UInt64 { print("UInt64") }
+            if let _ = element[0] as? Int64 { print("Int64") }
+            if let _ = element[0] as? Float { print("Float") }
+            */
+			
+            if let id = element[0] as? UInt64,
                let title = element[1] as? String {
-                items.append(Item(id: "\(id.intValue)", title: title))
+                items.append(Item(id: "\(id)", title: title))
             } else {
                 print("ignoring row...! \(element)")
             }
@@ -62,9 +73,9 @@ class ItemMySQLStorage:ItemStorage {
         _ = pre.results().forEachRow { (element:MySQLStmt.Results.Element) in
             
             
-            if let id = element[0] as? NSNumber,
+            if let id = element[0] as? UInt64,
                 let title = element[1] as? String {
-                items.append(Item(id: "\(id.intValue)", title: title))
+                items.append(Item(id: "\(id)", title: title))
             } else {
                 print("ignoring row...! \(element)")
             }

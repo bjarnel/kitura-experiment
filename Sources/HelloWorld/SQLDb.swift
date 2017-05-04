@@ -34,7 +34,8 @@ class SQLDb {
             return false
         }
         
-        guard dataMysql.setOption(MySQLOpt.MYSQL_SET_CHARSET_NAME, "utf8mb4") else {
+        guard dataMysql.setOption(MySQLOpt.MYSQL_SET_CHARSET_NAME, "utf8mb4"),
+              dataMysql.query(statement: "SET NAMES utf8mb4") else {
             close()
             print("unable to set charset")
             return false
